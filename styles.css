@@ -8,6 +8,16 @@ red - #ee5253
 
 */
 
+/* font-family: 'Roboto', sans-serif;
+
+COLORS
+teal - #0fb9b1;
+frosted white - rgba(225, 225, 225, .9);
+grey - #95a5a6;
+red - #ee5253
+
+*/
+
 
 
 body{
@@ -24,7 +34,7 @@ h1{
     font-family: 'Roboto', 'sans-serif';
 }
 
-.parent{
+.blockparent{
     display: flex;
     justify-content: center;
     
@@ -35,7 +45,7 @@ h1{
     padding-top: 20px;
 }
 
-.parent>form{
+.blockparent>form{
     background-color: rgba(225, 225, 225, .9);
     height: 400px;
     width: 500px;
@@ -46,6 +56,9 @@ h1{
 .block-1{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
@@ -65,7 +78,7 @@ button[type="submit"]{
     display:flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
 
 .block-2>img{
@@ -76,14 +89,15 @@ button[type="submit"]{
 .mealchoice{
     display: block;
     align-items: center;
-}
+    }
 
 #reset{
-    height: 100px;
-    width: 200px;
-    text-align: center;
+    height: 50px;
+    width: 100px;
+    background-color: #0fb9b1;
+    
 }
 
-.mealchoice .remove{
-    align-self: left;
+.hidden{
+    display: none;
 }
