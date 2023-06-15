@@ -34,3 +34,6 @@ To build an application ground up. Creating our own HTML, CSS and JS files.
 I got the functionality to work quite easily. I worked through the needs in pseudocode and implemented them without many issues. 
 
 I struggled with the CSS styling. I need to do more exercises with it. I feel I have a much better understanding but it will take practice.
+
+
+https://banjaminh.github.io/whats-for-dinner/
